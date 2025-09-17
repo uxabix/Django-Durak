@@ -14,11 +14,6 @@
 
 ---
 
-## -v0.1
-Docker
-Django
-GitFlow
-
 ## v0.0 — Setup (infrastructure)
 - [ ] Initialize Django project
 - [ ] Create base app (`core`)
