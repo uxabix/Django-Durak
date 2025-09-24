@@ -1,0 +1,162 @@
+# =========================
+# Python / general
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+junit-*.xml
+
+# Translations
+*.mo
+*.pot
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# virtualenvs
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Django
+# =========================
+# Local settings
+local_settings.py
+settings_local.py
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# SQLite (not used with Postgres, but ignore just in case)
+db.sqlite3
+db.sqlite3-journal
+
+# Static and media
+staticfiles/
+static/
+media/
+uploads/
+
+# Django cache / compiled templates
+django_cache/
+templates_c/
+
+# Celery beat schedule
+celerybeat-schedule
+celerybeat.pid
+
+# =========================
+# PostgreSQL
+# =========================
+# Ignore dumps and backups
+*.sql
+*.sql.gz
+*.dump
+*.backup
+
+# =========================
+# Docker
+# =========================
+# Ignore build artifacts and local overrides
+.docker/
+docker-compose.override.yml
+docker-compose.*.local.yml
+*.local.yml
+# Ignore Docker volume data if stored inside repo
+volumes/
+data/
+postgres-data/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE / Editors
+# =========================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Type checkers and linters
+# =========================
+.mypy_cache/
+.ruff_cache/
